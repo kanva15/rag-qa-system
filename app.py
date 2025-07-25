@@ -8,7 +8,7 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 st.set_page_config(page_title="Ask Your Docs", layout="centered")
-st.title("🧠 Ask Your PDF")
+st.title("🧠 What's In This Doc")
 st.write("Upload a PDF, ask anything about it.")
 
 uploaded_file = st.file_uploader("Upload a PDF", type="pdf")
