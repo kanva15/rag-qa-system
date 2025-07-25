@@ -1,0 +1,12 @@
+streamlit
+langchain==0.3.27
+langchain-openai==0.3.28
+langchain-community==0.3.27
+langchain-huggingface==0.3.1
+huggingface-hub
+sentence-transformers
+torch
+PyPDF2
+tiktoken
+openai
+faiss-cpu
