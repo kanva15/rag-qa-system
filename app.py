@@ -7,6 +7,8 @@ from ask_question import create_qa_chain
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
+
 st.set_page_config(page_title="Ask Your Docs", layout="centered")
 st.title("🧠 Ask Your PDF")
 st.write("Upload a PDF, ask anything about it.")
